@@ -27,5 +27,3 @@ class User(AbstractUser):
     currency = models.CharField(choices=CURRENCY_CHOICES,max_length=10,blank=True)
     superhost = models.BooleanField(default=False)
     
-    
-    superhost =models.BooleanField(default=False)
